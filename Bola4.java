@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Bola4 extends JApplet implements ActionListener {
+public class bola4 extends JApplet implements ActionListener {
     JButton a, b;
     int y, arahY, i;
     volatile boolean run1, run2;
@@ -46,7 +46,7 @@ public class Bola4 extends JApplet implements ActionListener {
             }
         } else {
             for (i = 0; i < 10; i++) {
-                cekBola();
+                cekBola1();
                 repaint();
             }
         }
